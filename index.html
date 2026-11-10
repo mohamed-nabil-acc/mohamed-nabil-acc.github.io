@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Mohamed Nabil, Senior Accountant in finance and cost control, Cairo. 13+ years in accounting: full-cycle books, project cost control, payroll and management reporting.">
+<meta property="og:title" content="Mohamed Nabil · Portfolio">
+<meta property="og:description" content="Senior Accountant · Finance & Cost Control · Cairo. 13+ years, case studies and contact.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://mohamed-nabil-acc.github.io/">
+<meta property="og:image" content="https://mohamed-nabil-acc.github.io/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Mohamed Nabil Portfolio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: a bound ledger-book on a dark desk; each spread is one chapter of a finance career. Single deliberate look (paper on ink). */
+:root{
+--desk:#121A26; --desk2:#1B2636;
+--paper:#F6F5EF; --paper2:#ECEBE3; --rule:#D9D8CE;
+--ink:#16202E; --muted:#5A6472;
+--green:#2E6B5A; --green2:#E3EEE9;
+--gold:#B9852F; --gold2:#E0B565;
+--red:#A23B32;
+--display:"Sora",system-ui,sans-serif;
+--body:"IBM Plex Sans",system-ui,sans-serif;
+--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+color-scheme:dark;
+}
+html,body{min-height:100%}
+body{background:radial-gradient(120% 90% at 50% 0%,var(--desk2) 0%,var(--desk) 60%);color:var(--paper);font-family:var(--body);
+padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 40px}
+.top{max-width:1060px;margin:0 auto 18px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-weight:700;letter-spacing:.02em;font-size:15px;color:var(--paper)}
+.brand b{color:var(--gold2)}
+.nav{display:flex;gap:8px;align-items:center}
+.nav button{font:600 13px var(--body);color:var(--paper);background:transparent;border:1px solid rgba(246,245,239,.25);border-radius:999px;padding:7px 14px;cursor:pointer}
+.nav button:hover{border-color:var(--gold2);color:var(--gold2)}
+.nav button:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
+.nav .pg{font:500 12px var(--mono);color:rgba(246,245,239,.6);min-width:70px;text-align:center}
+.stage{max-width:1060px;margin:0 auto}
+.hint{text-align:center;font-size:12px;color:rgba(246,245,239,.5);margin-top:14px}
+/* pages */
+.page{background:var(--paper);color:var(--ink);overflow:hidden}
+.pi{height:100%;padding:34px 34px 30px;display:flex;flex-direction:column;position:relative;
+background:linear-gradient(90deg,rgba(0,0,0,.05),transparent 7%) ,var(--paper)}
+.page.even .pi{background:linear-gradient(270deg,rgba(0,0,0,.05),transparent 7%),var(--paper)}
+.folio{position:absolute;bottom:14px;left:34px;right:34px;display:flex;justify-content:space-between;font:500 10.5px var(--mono);color:var(--muted);letter-spacing:.06em;border-top:1px solid var(--rule);padding-top:8px}
+.eyebrow{font:600 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h2{font:700 27px/1.15 var(--display);margin:8px 0 14px;text-wrap:balance;letter-spacing:-.01em}
+h2 em{font-style:normal;color:var(--green)}
+p{font-size:13.6px;line-height:1.6;margin:0 0 10px;color:#2A3442}
+.lead{font-size:14.5px;color:var(--ink)}
+ul.tick{list-style:none;padding:0;margin:4px 0 0;display:grid;gap:7px}
+ul.tick li{font-size:13px;line-height:1.5;padding-left:20px;position:relative;color:#2A3442}
+ul.tick li:before{content:"";position:absolute;left:2px;top:7px;width:9px;height:5px;border-left:2px solid var(--green);border-bottom:2px solid var(--green);transform:rotate(-45deg)}
+.tag{display:inline-block;font:600 10.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;background:var(--green2);color:var(--green);padding:4px 9px;border-radius:4px}
+/* covers */
+.cover .pi{background:var(--ink);color:var(--paper);padding:40px 38px}
+.cover .rule{height:3px;width:56px;background:var(--gold2);margin:22px 0}
+.cover h1{font:800 44px/1.02 var(--display);margin:0;letter-spacing:-.02em}
+.cover h1 span{color:var(--gold2)}
+.cover .role{font:500 15px var(--body);color:rgba(246,245,239,.8);margin-top:12px}
+.photo{width:132px;height:132px;border-radius:50%;object-fit:cover;border:3px solid var(--gold2);display:block}
+.ledgerlines{position:absolute;inset:auto 0 0 0;height:42%;background:repeating-linear-gradient(0deg,rgba(246,245,239,.06) 0 1px,transparent 1px 26px);pointer-events:none}
+.ledgerlines:before{content:"";position:absolute;top:0;bottom:0;left:62%;width:1px;background:rgba(224,181,101,.35)}
+.cover .pi>*:not(.ledgerlines){position:relative;z-index:1}
+.cover .meta{margin-top:auto;display:flex;justify-content:space-between;font:500 11px var(--mono);letter-spacing:.1em;color:rgba(246,245,239,.6);position:relative}
+.cover .tb{margin-top:26px;position:relative;font:500 12px var(--mono);color:rgba(246,245,239,.75);display:grid;grid-template-columns:1fr auto auto;gap:4px 16px;max-width:300px}
+.cover .tb b{color:var(--gold2);font-weight:600}
+/* glance */
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}
+.kpi{border:1px solid var(--rule);border-radius:8px;padding:12px 14px;background:#fff}
+.kpi .n{font:700 30px var(--display);color:var(--green);line-height:1;font-variant-numeric:tabular-nums}
+.kpi .n small{font-size:16px;color:var(--gold)}
+.kpi .l{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.4}
+/* timeline */
+.tl{display:grid;gap:14px;margin-top:4px}
+.job{display:grid;grid-template-columns:76px 1fr;gap:12px}
+.job .yr{font:600 11.5px/1.3 var(--mono);color:var(--gold);padding-top:3px}
+.job h3{font:700 15px var(--display);margin:0}
+.job .co{font-size:12.5px;color:var(--green);font-weight:600;margin:2px 0 5px}
+.job p{font-size:12.6px;margin:0}
+.edu{margin-top:16px;padding-top:12px;border-top:1px solid var(--rule)}
+/* case pages */
+.case-h{display:flex;justify-content:space-between;align-items:center}
+.cno{font:600 11px var(--mono);color:var(--muted)}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 0 12px}
+.ba div{border-radius:8px;padding:10px 12px;font-size:12.4px;line-height:1.45}
+.ba .b{background:var(--paper2);color:#3A4452}
+.ba .a{background:var(--green2);color:#173D33}
+.ba strong{display:block;font:600 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px}
+.ba .b strong{color:var(--red)} .ba .a strong{color:var(--green)}
+.je{font:500 11.5px/1.65 var(--mono);background:#fff;border:1px solid var(--rule);border-radius:8px;padding:10px 12px;margin-top:auto;margin-bottom:40px;font-variant-numeric:tabular-nums}
+.je .h{font-weight:600;color:var(--muted);letter-spacing:.06em;font-size:10px;text-transform:uppercase;margin-bottom:4px}
+.je .r{display:grid;grid-template-columns:1fr 78px 78px;gap:6px}
+.je .r span:nth-child(n+2){text-align:right}
+.je .cr{padding-left:18px}
+.je .t{border-top:1px solid var(--ink);margin-top:4px;padding-top:3px;font-weight:600}
+.je .ok{color:var(--green)}
+.tie{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:6px 0 12px;text-align:center}
+.tie div{background:#fff;border:1px solid var(--rule);border-radius:8px;padding:10px 4px}
+.tie b{display:block;font:700 22px var(--display);color:var(--ink);font-variant-numeric:tabular-nums}
+.tie span{font-size:11px;color:var(--muted)}
+.tie .eq{border-color:var(--green);background:var(--green2)} .tie .eq b{color:var(--green)}
+.bars{display:grid;gap:7px;margin:4px 0 14px}
+.bar{display:grid;grid-template-columns:92px 1fr 58px;gap:8px;align-items:center;font-size:11.5px}
+.bar i{display:block;height:12px;border-radius:3px;background:var(--green)}
+.bar i.g{background:var(--gold2)} .bar i.s{background:#9AA5B1}
+.bar span:last-child{font:500 11px var(--mono);text-align:right;color:var(--muted)}
+/* close calendar */
+.cal{display:grid;gap:8px;margin-top:4px}
+.day{display:grid;grid-template-columns:54px 1fr;gap:12px;align-items:start;border-bottom:1px dashed var(--rule);padding-bottom:8px}
+.day .d{font:700 13px var(--mono);color:var(--paper);background:var(--ink);border-radius:6px;text-align:center;padding:5px 0}
+.day .d small{display:block;font-size:9px;color:var(--gold2);letter-spacing:.1em}
+.day p{font-size:12.5px;margin:0}
+.day b{font-family:var(--display);font-size:13px;color:var(--ink)}
+/* skills */
+.sk{display:grid;gap:12px}
+.sk h4{font:600 10.5px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin:0 0 6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{font-size:12px;border:1px solid var(--rule);background:#fff;border-radius:999px;padding:4px 10px;color:var(--ink)}
+/* posts */
+.posts{display:grid;gap:8px}
+.post{border-left:3px solid var(--gold2);background:#fff;border-radius:0 8px 8px 0;padding:9px 12px}
+.post b{font:700 14px var(--display);display:block;color:var(--ink)}
+.post span{font-size:11.8px;color:var(--muted)}
+/* back */
+.page.back .pi,.page.even.back .pi{background:var(--ink);color:var(--paper)}
+.back h2{color:var(--paper)} .back p{color:rgba(246,245,239,.8)}
+.contact{display:grid;gap:10px;margin-top:10px}
+.contact div{border:1px solid rgba(246,245,239,.18);border-radius:8px;padding:12px 14px}
+.contact small{display:block;font:600 10px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--gold2);margin-bottom:4px}
+.contact a,.contact span{color:var(--paper);font:500 14px var(--body);text-decoration:none;word-break:break-all;user-select:all}
+.contact a:hover{color:var(--gold2)}
+.bpmark{display:flex;gap:12px;align-items:center;margin-top:auto;margin-bottom:48px;font-size:12.5px;color:rgba(246,245,239,.75)}
+.bpmark svg{width:40px;height:40px;flex:none}
+/* fallback (no flip library / reduced motion): pages stacked */
+.book.flat{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:18px}
+.book.flat .page{border-radius:6px;min-height:640px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.book.flat .folio{position:static;margin-top:auto}
+@media (max-width:520px){.pi{padding:24px 20px 26px}.folio{left:20px;right:20px}.cover h1{font-size:36px}h2{font-size:23px}.kpi .n{font-size:25px}}
+</style>
+</head>
+<body>
+<div class="top">
+<div class="brand">MOHAMED NABIL <b>·</b> PORTFOLIO</div>
+<div class="nav" id="nav"><button id="prev" type="button" aria-label="Previous page">← Prev</button><span class="pg" id="pg">1 / 14</span><button id="next" type="button" aria-label="Next page">Next →</button></div>
+</div>
+<div class="stage"><div class="book" id="book">
+<div class="page cover" data-density="hard"><div class="pi">
+<img class="photo" alt="Mohamed Nabil" src="data:image/jpeg;base64,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">
+<div class="rule"></div>
+<h1>Mohamed<br><span>Nabil</span></h1>
+<div class="role">Senior Accountant · Finance &amp; Cost Control<br>Cairo, Egypt</div>
+<div class="tb"><span>Years in accounting</span><b>13+</b><span></span><span>Industries</span><b>3</b><span></span><span>BSc Accounting</span><b>Cairo Univ.</b><span></span><span>Systems built in-house</span><b>4</b><span></span></div>
+<div class="ledgerlines"></div>
+<div class="meta"><span>PORTFOLIO</span><span>EDITION 2026</span></div>
+</div></div>
+<div class="page even"><div class="pi">
+<div class="eyebrow">Profile</div>
+<h2>I make the numbers <em>easy to trust.</em></h2>
+<p class="lead">Accountant with 13+ years across manufacturing, general contracting and engineering consulting. Today I run the full finance cycle for the Cairo office of a Saudi engineering group: books, payroll, project costs, cash and management reporting.</p>
+<p>My habit is to build the tool when the tool doesn't exist. That's how the office got its accounting system, its project cost control, its payroll checks and a weekly early-warning dashboard, all designed and built by me.</p>
+<ul class="tick">
+<li>Full-cycle accounting: journal, ledger, trial balance, statements</li>
+<li>Project cost control and overhead allocation by hours</li>
+<li>Payroll and overtime, tied out to the bank every month</li>
+<li>Multi-currency funding: USD, SAR and EGP</li>
+<li>Reports management actually reads</li>
+</ul>
+<div class="folio"><span>MOHAMED NABIL</span><span>02</span></div>
+</div></div>
+<div class="page"><div class="pi">
+<div class="eyebrow">At a glance</div>
+<h2>The work, <em>in figures.</em></h2>
+<div class="kpis">
+<div class="kpi"><div class="n">13<small>+</small></div><div class="l">years in accounting, from the shop floor to the finance lead role</div></div>
+<div class="kpi"><div class="n">29</div><div class="l">people on the payroll I run and reconcile every month</div></div>
+<div class="kpi"><div class="n">3</div><div class="l">currencies in one set of books: USD, SAR and EGP</div></div>
+<div class="kpi"><div class="n">100<small>%</small></div><div class="l">payroll matched to the bank, name by name, every month</div></div>
+<div class="kpi"><div class="n">4</div><div class="l">in-house systems: accounting, cost control, HR and leave, early warning</div></div>
+<div class="kpi"><div class="n">2</div><div class="l">LinkedIn posts a week on practical finance, plus a month-end close course</div></div>
+</div>
+<div class="folio"><span>AT A GLANCE</span><span>03</span></div>
+</div></div>
+<div class="page even"><div class="pi">
+<div class="eyebrow">Experience</div>
+<h2>Three industries, <em>one discipline.</em></h2>
+<div class="tl">
+<div class="job"><div class="yr">2026 –<br>present</div><div><h3>Senior Accountant · Finance &amp; Cost Control</h3><div class="co">Ornament Engineering, Cairo · part of a Saudi engineering group</div><p>Leading finance for the Cairo office: accounting cycle, payroll, project costs, funding from the parent company, e-invoicing compliance and reporting to the office manager and the group's financial manager.</p></div></div>
+<div class="job"><div class="yr">2021 –<br>2026</div><div><h3>Accountant</h3><div class="co">Al-Andalus General Contracting</div><p>Warehouse and inventory reconciliations, supplier accounts, month-end close and trial balances on Nama ERP.</p></div></div>
+<div class="job"><div class="yr">2013 –<br>2021</div><div><h3>Accountant</h3><div class="co">Tiba Manzalawi Group</div><p>Eight years in an industrial group: supplier and customer reconciliations, full responsibility for cheques and custody, daily entries on the Comsys system.</p></div></div>
+</div>
+<div class="edu"><div class="eyebrow">Education</div><div class="job" style="margin-top:8px"><div class="yr">2008 –<br>2012</div><div><h3>Bachelor's Degree, Accounting</h3><div class="co">Cairo University</div></div></div></div>
+<div class="folio"><span>EXPERIENCE</span><span>04</span></div>
+</div></div>
+<div class="page"><div class="pi">
+<div class="case-h"><span class="tag">Case study</span><span class="cno">01 / 05</span></div>
+<h2>Books built <em>from zero.</em></h2>
+<p>The office had been operating without a general ledger of its own. I rebuilt the books from the very first transaction.</p>
+<div class="ba"><div class="b"><strong>Before</strong>Bank sheets, custody forms and payroll files that didn't talk to each other.</div><div class="a"><strong>After</strong>Chart of accounts, journal, ledger, trial balance and statements, in Excel and a browser app.</div></div>
+<ul class="tick">
+<li>Opening balances rebuilt from the prior-year tax return</li>
+<li>Accrual and payment recorded separately for every expense</li>
+<li>Depreciation policy and fixed asset register written and approved</li>
+<li>Read-only copy for the group's financial manager, one click</li>
+</ul>
+<div class="je"><div class="h">Every month ends the same way</div><div class="r"><span>Trial balance</span><span></span><span class="ok">Balanced ✓</span></div><div class="r"><span>Bank in books = bank statement</span><span></span><span class="ok">Matched ✓</span></div><div class="r"><span>Custody in books = custody forms</span><span></span><span class="ok">Matched ✓</span></div></div>
+<div class="folio"><span>CASE STUDIES</span><span>05</span></div>
+</div></div>
+<div class="page even"><div class="pi">
+<div class="case-h"><span class="tag">Case study</span><span class="cno">02 / 05</span></div>
+<h2>What does each project <em>really cost?</em></h2>
+<p>I designed a cost control system for an engineering team: personal timesheets, overtime approval, hourly rates and overhead allocated to projects by each project's share of hours.</p>
+<div class="bars" aria-label="Illustrative cost split by project">
+<div class="bar"><span>Project A</span><i style="width:92%"></i><span>38%</span></div>
+<div class="bar"><span>Project B</span><i style="width:60%"></i><span>25%</span></div>
+<div class="bar"><span>Project C</span><i class="g" style="width:46%"></i><span>19%</span></div>
+<div class="bar"><span>Project D</span><i class="g" style="width:29%"></i><span>12%</span></div>
+<div class="bar"><span>Unallocated</span><i class="s" style="width:14%"></i><span>6%</span></div>
+</div>
+<ul class="tick">
+<li>Timesheets for each engineer, plus a mobile app for logging hours</li>
+<li>Monthly invoice to the parent split by project hours</li>
+<li>Project reports: hours, overtime, month-on-month cost</li>
+<li>Automated with VBA: WhatsApp payslips, one-click reports</li>
+</ul>
+<div class="folio"><span>CASE STUDIES · ILLUSTRATIVE FIGURES</span><span>06</span></div>
+</div></div>
+<div class="page"><div class="pi">
+<div class="case-h"><span class="tag">Case study</span><span class="cno">03 / 05</span></div>
+<h2>Approved = paid = <em>posted.</em></h2>
+<p>Overtime is where payroll leaks. I made one rule for every month: the hours approved in the timesheet, the hours paid in payroll and the hours expensed in the ledger must be the same number.</p>
+<div class="tie"><div><b>120</b><span>approved</span></div><div><b>120</b><span>paid</span></div><div class="eq"><b>120</b><span>posted</span></div></div>
+<ul class="tick">
+<li>Payroll month closes on the 19th; nothing is paid before sign-off</li>
+<li>Partial months for new joiners, prorated by actual days</li>
+<li>Every salary in the bank matched to the payroll sheet, name by name</li>
+<li>Office manager signs the payroll and overtime statement first</li>
+</ul>
+<div class="je"><div class="h">Monthly payroll check · illustrative</div><div class="r"><span>Payroll sheet</span><span></span><span>486,350.40</span></div><div class="r"><span>Paid from two bank accounts</span><span></span><span>486,350.00</span></div><div class="r t"><span>Difference (rounding)</span><span></span><span class="ok">0.40 ✓</span></div></div>
+<div class="folio"><span>CASE STUDIES</span><span>07</span></div>
+</div></div>
+<div class="page even"><div class="pi">
+<div class="case-h"><span class="tag">Case study</span><span class="cno">04 / 05</span></div>
+<h2>Funded in dollars, <em>booked in pounds.</em></h2>
+<p>The office is funded in USD and spends in EGP, while project costs are tracked in SAR. I set one rule for rates so that the books, the bank and the cost reports agree.</p>
+<ul class="tick">
+<li>Receipts booked at the actual conversion rate on the day received</li>
+<li>USD balance kept in its own account, revalued at month end</li>
+<li>Rate differences go to one FX account, never buried in expenses</li>
+<li>EGP and SAR figures are never added together in a report</li>
+</ul>
+<div class="je"><div class="h">Receipt of a USD invoice · illustrative</div>
+<div class="r"><span>Dr Bank – USD account</span><span>625,000.00</span><span></span></div>
+<div class="r"><span class="cr">Cr Project revenue (split by project)</span><span></span><span>625,000.00</span></div>
+<div class="r t"><span>12,500 USD × 50.00</span><span></span><span class="ok">Balanced ✓</span></div></div>
+<div class="folio"><span>CASE STUDIES</span><span>08</span></div>
+</div></div>
+<div class="page"><div class="pi">
+<div class="case-h"><span class="tag">Case study</span><span class="cno">05 / 05</span></div>
+<h2>See the shortfall <em>before it happens.</em></h2>
+<p>Management doesn't need a ledger. It needs to know whether next month is covered. I built a weekly early-warning view that pulls from the books, the cost file and payroll.</p>
+<div class="tie"><div><b>0.30M</b><span>cash on hand</span></div><div><b>0.85M</b><span>due by month end</span></div><div class="eq" style="border-color:var(--gold);background:#FBF3E2"><b style="color:var(--gold)">0.55M</b><span>to cover</span></div></div>
+<ul class="tick">
+<li>Funding received from the parent against spending, month by month</li>
+<li>Cash in banks and with each custody holder, shown separately</li>
+<li>Upcoming salaries, rent and insurance against available cash</li>
+<li>Every report exports as a page and an image, ready for WhatsApp</li>
+</ul>
+<div class="folio"><span>CASE STUDIES · ILLUSTRATIVE FIGURES</span><span>09</span></div>
+</div></div>
+<div class="page even"><div class="pi">
+<div class="eyebrow">Method</div>
+<h2>How I close <em>a month.</em></h2>
+<div class="cal">
+<div class="day"><div class="d">1<small>DAY</small></div><p><b>Accruals.</b> Bills paid this month for last month go back to last month. Depreciation and prepaid insurance spread monthly.</p></div>
+<div class="day"><div class="d">2<small>DAY</small></div><p><b>Custody.</b> Every advance settled with receipts, each expense posted in the month it was spent. Petty cash counted.</p></div>
+<div class="day"><div class="d">3<small>DAY</small></div><p><b>Banks.</b> Every account reconciled. USD balance revalued. Suspense account cleared to zero.</p></div>
+<div class="day"><div class="d">4<small>DAY</small></div><p><b>Review.</b> Trial balance, payroll tie-out, budget against actual with notes on each variance.</p></div>
+<div class="day"><div class="d">5<small>DAY</small></div><p><b>Report and lock.</b> Management report sent, read-only copy to the group, period locked.</p></div>
+</div>
+<div class="folio"><span>METHOD</span><span>10</span></div>
+</div></div>
+<div class="page"><div class="pi">
+<div class="eyebrow">Skills &amp; tools</div>
+<h2>What I <em>work with.</em></h2>
+<div class="sk">
+<div><h4>Accounting</h4><div class="chips"><span>Full-cycle bookkeeping</span><span>Month-end close</span><span>Accruals &amp; prepayments</span><span>Fixed assets &amp; depreciation</span><span>Bank reconciliation</span><span>Intercompany funding</span></div></div>
+<div><h4>Cost &amp; payroll</h4><div class="chips"><span>Project cost control</span><span>Overhead allocation</span><span>Payroll &amp; overtime</span><span>Custody &amp; petty cash</span><span>Budgeting</span></div></div>
+<div><h4>Compliance (Egypt)</h4><div class="chips"><span>ETA e-invoicing</span><span>VAT basics</span><span>Social insurance</span></div></div>
+<div><h4>Tools</h4><div class="chips"><span>Advanced Excel</span><span>VBA automation</span><span>HTML reporting apps</span><span>Firebase mobile app</span><span>Nama ERP</span><span>Comsys</span><span>AI-assisted workflows</span></div></div>
+<div><h4>Languages</h4><div class="chips"><span>Arabic (native)</span><span>English (professional)</span></div></div>
+</div>
+<div class="folio"><span>SKILLS</span><span>11</span></div>
+</div></div>
+<div class="page even"><div class="pi">
+<div class="eyebrow">Writing</div>
+<h2>Practical finance, <em>twice a week.</em></h2>
+<p>I write on LinkedIn every Tuesday and Thursday about the problems an in-house accountant actually meets, with a free course on the month-end close.</p>
+<div class="posts">
+<div class="post"><b>Profit ≠ Cash</b><span>Why a profitable month can still run out of money</span></div>
+<div class="post"><b>Reconciled ≠ Clean</b><span>What a matching bank balance can still hide</span></div>
+<div class="post"><b>Budgeted at 54. Paid at 55.8.</b><span>The FX assumption that sinks budgets</span></div>
+<div class="post"><b>Approved 120 hours. Paid 104.</b><span>The three-way overtime tie-out</span></div>
+<div class="post"><b>Suspense is a parking lot.</b><span>Clearing suspense before the period locks</span></div>
+<div class="post"><b>Month-End Close, step by step</b><span>An 8-lesson course in PDF carousels</span></div>
+</div>
+<div class="folio"><span>WRITING</span><span>12</span></div>
+</div></div>
+<div class="page"><div class="pi">
+<div class="eyebrow">How I work</div>
+<h2>Four rules <em>I keep.</em></h2>
+<div class="cal">
+<div class="day"><div class="d" style="background:var(--green)">I</div><p><b>Every number has a document.</b> Each entry links to its receipt, statement or signed sheet.</p></div>
+<div class="day"><div class="d" style="background:var(--green)">II</div><p><b>Every expense in its month.</b> Paid late or early, it lands in the month it belongs to.</p></div>
+<div class="day"><div class="d" style="background:var(--green)">III</div><p><b>Nothing leaves unsigned.</b> Payroll and overtime go to management only after approval.</p></div>
+<div class="day"><div class="d" style="background:var(--green)">IV</div><p><b>Bad news early.</b> A funding gap reported two weeks ahead is a plan. Reported on payday, it's a crisis.</p></div>
+</div>
+<div class="folio"><span>PRINCIPLES</span><span>13</span></div>
+</div></div>
+<div class="page back even" data-density="hard"><div class="pi">
+<div class="eyebrow" style="color:var(--gold2)">Contact</div>
+<h2>Let's talk numbers.</h2>
+<p>Happy to talk accounting, cost control and month-end close with finance professionals anywhere.</p>
+<div class="contact">
+<div><small>LinkedIn</small><a href="https://www.linkedin.com/in/mohamed-nabil-acc/" target="_blank" rel="noopener">linkedin.com/in/mohamed-nabil-acc</a></div>
+<div><small>Email</small><span>acc.mna@gmail.com</span></div>
+<div><small>WhatsApp</small><span>+20 10 6542 6095</span></div>
+<div><small>Based in</small><span>Cairo, Egypt</span></div>
+</div>
+<div class="bpmark"><span>Always happy to connect with fellow finance and accounting professionals.</span></div>
+</div></div>
+</div></div>
+<div class="hint" id="hint">Drag a page corner or use the arrows to turn pages</div>
+<script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
+<script>
+(function(){
+var book=document.getElementById('book'),pg=document.getElementById('pg'),nav=document.getElementById('nav'),hint=document.getElementById('hint');
+var pages=book.querySelectorAll('.page'),total=pages.length;
+var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+function flat(){book.classList.add('flat');nav.hidden=true;hint.hidden=true;}
+if(!window.St||!St.PageFlip||reduce||window.innerWidth<700){flat();return;}
+try{
+var pf=new St.PageFlip(book,{width:480,height:660,size:'stretch',minWidth:300,maxWidth:520,minHeight:420,maxHeight:720,
+showCover:true,usePortrait:true,mobileScrollSupport:true,maxShadowOpacity:.45,flippingTime:800});
+pf.loadFromHTML(pages);
+function upd(){var i=pf.getCurrentPageIndex()+1;pg.textContent=i+' / '+total;}
+pf.on('flip',upd);pf.on('changeOrientation',upd);upd();
+document.getElementById('prev').onclick=function(){pf.flipPrev();};
+document.getElementById('next').onclick=function(){pf.flipNext();};
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight')pf.flipNext();if(e.key==='ArrowLeft')pf.flipPrev();});
+}catch(err){flat();}
+})();
+</script>
+</body>
+</html>
